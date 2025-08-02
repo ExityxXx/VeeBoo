@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-const std::string VEEBOO_TITLE_ASCII_ART = R"(
+const char *VEEBOO_TITLE_ASCII_ART =
+R"(
 __     __        ____              
 \ \   / /__  ___| __ )  ___   ___  
  \ \ / / _ \/ _ \  _ \ / _ \ / _ \ 
@@ -11,7 +12,7 @@ __     __        ____
 
 int main(void)
 {
-    std::cout << "VeeBoo - ";
+    std::cout << VEEBOO_TITLE_ASCII_ART;
     return 0;
 }
 
